@@ -1,0 +1,27 @@
+Corrente el?trica.
+
+Corrente El?trica (A), ? o movimento ordenado dos el?trons dentro de um material na aplica??o de uma tens?o (V).
+(A) = ampere - (V) volts
+
+CC = Corrente continua: Pilhas, Baterias - CA = Corrente alternada: Corrente da tomada normal
+
+
+Potencial Eletrico.
+
+? a energia el?trica associada a um campo eletronico medida em Volt(V)
+
+Diferen?a de potencial ? a diferen?a de energia potencial entre dois pontos em um campo eletrico
+
+Diferen?a de potencial ou Tens?o = VOLT
+
+
+Resistencia El?trica (OHM)
+? a capacidade de um objeto de opor-se a passagem de corrente el?trica, quando submetido a diferen?a potencial (tens?o)
+
+**Primeira Lei de OHM:
+V** = voltagem(tens?o) I = Corrente R = resistencia
+V = R x I
+
+
+
+

@@ -10,10 +10,11 @@ programa
 		leia(p2)
 		escreva("escreva a nota da Prova 3: ")
 		leia(p3)
-		media = (p1 + p2 + p3) / 3
+		media = ((p1 * 2) + (p2 * 3) + (p3 * 5))/10
 		escreva("A media do aluno é : " ,media)
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.

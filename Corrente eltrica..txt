@@ -1,7 +1,9 @@
 Corrente el?trica.
 
-Corrente El?trica (A), ? o movimento ordenado dos el?trons dentro de um material na aplica??o de uma tens?o (V).
+Corrente Eletrica (A), eh o movimento ordenado dos eletrons dentro de um material na aplicaçao de uma tensao (V).
 (A) = ampere - (V) volts
+
+Tensao - diferenca de potencial (campo eletrico acumulado) gera um polo positivo (+) e polo negativo (-)
 
 CC = Corrente continua: Pilhas, Baterias - CA = Corrente alternada: Corrente da tomada normal
 
@@ -9,16 +11,16 @@ CC = Corrente continua: Pilhas, Baterias - CA = Corrente alternada: Corrente da 
 
 Potencial Eletrico.
 
-? a energia el?trica associada a um campo eletronico medida em Volt(V)
+eh a energia el?trica associada a um campo eletronico medida em Volt(V)
 
-Diferen?a de potencial ? a diferen?a de energia potencial entre dois pontos em um campo eletrico
+Diferenca de potencial eh a diferenca de energia potencial entre dois pontos em um campo eletrico
 
 Diferen?a de potencial ou Tensao = VOLT
 
 ----------------------------------------------------------------------------------------------------------------------------
 
 Resistencia El?trica (OHM)
-? a capacidade de um objeto de opor-se a passagem de corrente el?trica, quando submetido a diferen?a potencial (tens?o)
+eh a capacidade de um objeto de opor-se a passagem de corrente eletrica, quando submetido a diferenca potencial (tens?o)
 
 **Primeira Lei de OHM:
 V = voltagem(tensao) I = Corrente R = resistencia
@@ -32,3 +34,4 @@ Sistemas Digitais
 
 Analogico, é um sinal continuo de "onda"
 Digital, transforma as ondas em informações fragmentadas de zeros e uns
+

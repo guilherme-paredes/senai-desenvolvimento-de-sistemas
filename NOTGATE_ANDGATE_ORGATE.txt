@@ -1,0 +1,33 @@
+Tabela da VDD
+
+NOT GATE - 
+Y = A|
+Entra A = 1 sai Y = 0
+entra A = 0 sai Y = 1
+
+AND GATE -                          \  A - B - Y
+entra A = 0 entra B = 0 sai Y = 0   \  0 - 0 - 0
+entra A = 0 entra B = 1 sai Y = 0   \  0 - 1 - 0
+entra A = 1 entra B = 0 sai Y = 0   \  1 - 0 - 0
+entra A = 1 entra B = 1 sai Y = 1   \  1 - 1 - 1
+
+
+OR GATE                             \  A - B - Y 
+entra A = 0 entra B = 0 sai Y = 0   \  0 - 0 - 0 
+entra A = 0 entra B = 1 sai Y = 1   \  0 - 1 - 1 
+entra A = 1 entra B = 0 sai Y = 1   \  1 - 0 - 1 
+entra A = 1 entra B = 1 sai Y = 1   \  1 - 1 - 0 
+
+NAND GATE -                          \  A - B - Y
+entra A = 0 entra B = 0 sai Y = 0   \  0 - 0 - 1
+entra A = 0 entra B = 1 sai Y = 0   \  0 - 1 - 1
+entra A = 1 entra B = 0 sai Y = 0   \  1 - 0 - 1
+entra A = 1 entra B = 1 sai Y = 1   \  1 - 1 - 0
+
+NOR GATE                            \  A - B - Y 
+entra A = 0 entra B = 0 sai Y = 0   \  0 - 0 - 1 
+entra A = 0 entra B = 1 sai Y = 1   \  0 - 1 - 0 
+entra A = 1 entra B = 0 sai Y = 1   \  1 - 0 - 0 
+entra A = 1 entra B = 1 sai Y = 1   \  1 - 1 - 0 
+
+

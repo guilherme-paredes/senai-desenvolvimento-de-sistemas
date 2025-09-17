@@ -3,6 +3,7 @@ programa
 	
 	funcao inicio()
 	{
+
 		cadeia a,b,c,abc
 		escreva("Qual o modelo do carro? ")
 		leia(abc)
@@ -10,17 +11,27 @@ programa
 				se(abc=="a"){
 				escreva("O carro do modelo A faz aproximadamente 8Km por litro de gasolina (Podendo variar)")
 				}
-				se(abc=="b"){
+				senao
+				{
+					se(abc=="b"){
 				escreva("O carro do modelo B faz aproximadamente 9Km por litro de gasolina (Podendo variar)")
 				}
-				se(abc=="c"){
+					
+					senao{
+						se(abc=="c"){
 				escreva("O carro do modelo C faz aproximadamente 12Km por litro de gasolina (Podendo variar)")
 				}
-				se(abc!="a" e abc!="b" e abc!="c"){
+						
+						senao{
+							se(abc!="a" e abc!="b" e abc!="c"){
 			escreva("Modelo invalido tente novamente ")
 				
+					}
 				}
-}}
+			}			
+		}
+	}
+}
 
 /* $$$ Portugol Studio $$$ 
  * 

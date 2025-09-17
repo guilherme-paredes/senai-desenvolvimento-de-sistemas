@@ -4,21 +4,23 @@ programa
 	funcao inicio()
 	{
 		cadeia a,b,c,abc
+		real km
 		escreva("Qual o modelo do carro? ")
 		leia(abc)
-		
+		escreva("Quantos quilômetros teve o percurso? ")
+		leia(km)
 				se(abc=="a"){
-				escreva("O carro do modelo A faz aproximadamente 8Km por litro de gasolina (Podendo variar)")
+				escreva("O carro do modelo A faz aproximadamente 8Km por litro de gasolina, gastando: ",(km/8)," Litros de gasolina. (Podendo variar)")
 				}
 				senao
 				{
 					se(abc=="b"){
-				escreva("O carro do modelo B faz aproximadamente 9Km por litro de gasolina (Podendo variar)")
+				escreva("O carro do modelo B faz aproximadamente 9Km por litro de gasolina, gastando: ",(km/9)," Litros de gasolina. (Podendo variar)")
 				}
 					
 					senao{
 						se(abc=="c"){
-				escreva("O carro do modelo C faz aproximadamente 12Km por litro de gasolina (Podendo variar)")
+				escreva("O carro do modelo C faz aproximadamente 12Km por litro de gasolina, gastando: ",(km/12)," Litros de gasolina.(Podendo variar)")
 				}
 						
 						senao{
@@ -31,6 +33,8 @@ programa
 		}
 	}
 }
+
+
 
 
 /* $$$ Portugol Studio $$$ 

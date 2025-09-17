@@ -3,15 +3,13 @@ programa
 	
 	funcao inicio()
 	{
-	real a
-		escreva("informe o valor de compra do produto: ")
-		leia(a)
-		se(a<=200){
-			escreva("O item tem que ser vendido a: ",(a*1.5),"R$, para ter um lucro de 50% ")
-		}
-		senao{
-			escreva("O item tem que ser vendido a: ",(a*1.3),"R$, para ter um lucro de 30% ")
-			}
+		real p,i,pi
+		escreva("Informe o valor do produto: ")
+		leia(p)
+		escreva("Qual a inflação em %? ")
+		leia(i)
+		pi = p + (i/100 * p)
+		escreva("o valor atualizado do item é: ",pi,"R$")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 250; 
+ * @POSICAO-CURSOR = 229; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

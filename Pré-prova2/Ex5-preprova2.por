@@ -3,7 +3,6 @@ programa
 	
 	funcao inicio()
 	{
-
 		cadeia a,b,c,abc
 		escreva("Qual o modelo do carro? ")
 		leia(abc)
@@ -33,12 +32,13 @@ programa
 	}
 }
 
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 578; 
+ * @POSICAO-CURSOR = 653; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

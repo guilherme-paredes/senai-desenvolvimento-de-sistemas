@@ -3,15 +3,13 @@ programa
 	
 	funcao inicio()
 	{
-	real a
-		escreva("informe o valor de compra do produto: ")
+	real pi, a
+		escreva("Vamos calcular a  area do Circulo, me informe o raio: ")
 		leia(a)
-		se(a<=200){
-			escreva("O item tem que ser vendido a: ",(a*1.5),"R$, para ter um lucro de 50% ")
-		}
-		senao{
-			escreva("O item tem que ser vendido a: ",(a*1.3),"R$, para ter um lucro de 30% ")
-			}
+		pi=3.14
+		a = ((a*a) * pi)
+		escreva("A area do Circulo é: " ,a )
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,9 +17,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 250; 
+ * @POSICAO-CURSOR = 41; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {a, 6, 10, 1}-{pi, 6, 6, 2};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

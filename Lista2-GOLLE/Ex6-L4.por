@@ -3,25 +3,30 @@ programa
 	
 	funcao inicio()
 	{
-	real a
-		escreva("informe o valor de compra do produto: ")
+		real a,i,v
+		v=0
+		escreva("Qual o ano vigente?  ")
 		leia(a)
-		se(a<=200){
-			escreva("O item tem que ser vendido a: ",(a*1.5),"R$, para ter um lucro de 50% ")
+		escreva("Qual o ano do seu nascimento?  ")
+		leia(i)
+		se(a-i>=16){
+			v=a-i
+		escreva("Você vota esse ano!")
 		}
 		senao{
-			escreva("O item tem que ser vendido a: ",(a*1.3),"R$, para ter um lucro de 30% ")
+			escreva("você não vota esse ano!")
 			}
-	}
+		}
+	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 250; 
+ * @POSICAO-CURSOR = 273; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {a, 6, 7, 1}-{i, 6, 9, 1}-{v, 6, 11, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

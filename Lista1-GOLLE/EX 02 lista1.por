@@ -3,15 +3,18 @@ programa
 	
 	funcao inicio()
 	{
-	real a
-		escreva("informe o valor de compra do produto: ")
-		leia(a)
-		se(a<=200){
-			escreva("O item tem que ser vendido a: ",(a*1.5),"R$, para ter um lucro de 50% ")
-		}
-		senao{
-			escreva("O item tem que ser vendido a: ",(a*1.3),"R$, para ter um lucro de 30% ")
-			}
+		real area,lado1,lado2	
+
+		escreva("Vamos calcular a área de um retangulo?  ")
+		
+			escreva("me informe o primeiro lado: ")
+			leia (lado1)
+			escreva("me informe o segundo lado: ")
+			leia(lado2)
+
+			area = lado1 * lado2
+
+			escreva("A area do retangulo é: " + area)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 250; 
+ * @POSICAO-CURSOR = 314; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

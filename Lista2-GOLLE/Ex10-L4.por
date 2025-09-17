@@ -3,14 +3,21 @@ programa
 	
 	funcao inicio()
 	{
-	real a
-		escreva("informe o valor de compra do produto: ")
+	cadeia s,n
+	real a,pi
+		escreva("Qual seu nome? ")
+		leia(n)
+		escreva("Qual sua altura? ")
 		leia(a)
-		se(a<=200){
-			escreva("O item tem que ser vendido a: ",(a*1.5),"R$, para ter um lucro de 50% ")
+		escreva("Você é masculino ou feminino? ")
+		leia(s)
+		se(s == "f"){
+		pi=(62.1*a)-44.7
+		escreva("Seu peso ideal é: ",pi, "kg")
 		}
 		senao{
-			escreva("O item tem que ser vendido a: ",(a*1.3),"R$, para ter um lucro de 30% ")
+			pi=(72.1*a)-58
+			escreva("Seu peso ideal é: ",pi, "kg")
 			}
 	}
 }
@@ -19,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 250; 
+ * @POSICAO-CURSOR = 230; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

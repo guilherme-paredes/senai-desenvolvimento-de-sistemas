@@ -1,0 +1,1 @@
+Professora, estou enviando minha pasta completa; ela tem todas as paginas feitas até o presente momento. Os itens que são referentes a atividade para entrega estão sinalizados com a data de hoje(11-09). sinta-se livre para verificar as outras atividades criticas são bem vindas!

@@ -1,0 +1,40 @@
+body{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(120, 178, 226);
+}
+h1{
+    text-align: center;
+    color: rgb(92, 3, 3);
+}
+p{
+    text-decoration: dashed;
+    background-color: rgb(206, 80, 80);
+    font-size: x-large;
+}
+table,tr,th,td{
+    border: 2px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+img{
+    border-radius: 4%;
+    margin-left: 500px;
+    width: 350px;
+    align-items: center;
+}
+button{
+    margin: 2%;
+}
+fieldset{
+    background-color: azure;
+}
+strong{
+    font-size: xx-large;
+    
+}
+legend{
+    font-size: xx-large;
+}

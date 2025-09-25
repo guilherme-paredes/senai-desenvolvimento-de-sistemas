@@ -1,0 +1,24 @@
+button{
+    margin: 2%;
+}
+img{
+    border-radius: 4%;
+    margin-left: 700px;
+    width: 30%;
+    align-items: center;
+}
+h1,h2,h3,h4,h5,h6,br,hr{
+    background-color: darkorchid;
+    font-size: xx-large;
+    text-align: center;
+}
+p{
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+}
+b{
+margin-left: 900px;
+}

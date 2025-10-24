@@ -1,0 +1,39 @@
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    align-items: start;
+}
+.card{
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+    border-radius: 6px;
+    background: #fafafa;
+    text-align: left;
+}
+.card h2{ margin-top: 0; }
+button{ cursor: pointer; }
+        button {
+            padding: 5px 10px;
+            font-size: 1em;
+            cursor: pointer;
+            margin:20px;
+        }
